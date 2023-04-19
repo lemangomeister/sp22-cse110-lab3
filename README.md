@@ -1,2 +1,2 @@
 # Lab 2 - Starter
-https://lemangomeister.github.io/Lab2_Starter.github.io/
+https://lemangomeister.github.io/sp22-cse110-lab3/
