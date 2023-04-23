@@ -6,7 +6,7 @@
         <title>Team 3 Site</title><!--Tab Title-->
         <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-<style>
+<style>/*Internal CSS*/
 @media screen and (min-width: 1500px){
     body{
         background-color: teal;
@@ -18,7 +18,7 @@
             <div class="box"><h1>TEAM 3 Meeting Minutes</h1></div>
             <div class="outerbox"><h2>April 16, 2023</h2></div>
             <ul>
-                <li>Mico Guinto</li>
+                <li style="font-weight: bold;">Mico Guinto</li><!--Inline CSS-->
                 <li>Anh Pham</li>
                 <li>Chris Tian</li>
                 <li>Dylan Olivares</li>
@@ -35,7 +35,7 @@
         <main>
             <hr>
             <h2>Brainstorming</h2><!--ChatGPT Generated Story Underneath-->
-            <p>Once upon a time, in the frigid expanse of <a href="https://en.wikipedia.org/wiki/Antarctica">Antarctica</a>, there lived an <d class="ex1">Emperor Penguin</d> named Pippin. Pippin had always been curious about the creatures that lived beyond his icy kingdom. He'd heard tales of a mighty polar bear that roamed the Arctic and longed to meet him.
+            <p>Once upon a time, in the frigid expanse of <a href="https://en.wikipedia.org/wiki/Antarctica" target="_blank">Antarctica</a>, there lived an <d class="ex1">Emperor Penguin</d> named Pippin. Pippin had always been curious about the creatures that lived beyond his icy kingdom. He'd heard tales of a mighty polar bear that roamed the Arctic and longed to meet him.
 
                 One day, while out foraging for fish, Pippin found himself lost in a maze of icebergs. Suddenly, he heard a loud growl. He turned around to find himself face-to-face with a polar bear named Balthazar.
                 
@@ -88,7 +88,7 @@
             </ul>
             <hr>
             <section>
-                <h3>Goal</h3>
+                <div><h3>Goal</h3></div>
                 <img src="state.png" alt="team goal">
                 <nav>
                     <a href="state.png">Full Size Goal</a>
@@ -178,7 +178,7 @@
     <br>  
     
     <footer>
-        <p><i>Author: Mico Guinto</i></p>
+        <p id="name"><i>Author: Mico Guinto</i></p>
     </footer>
 </body>
 </html>

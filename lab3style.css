@@ -56,7 +56,11 @@ textCh{
 }
 
 a:hover {
-    color: yellow;
+    color: burlywood;
+}
+
+a[target="_blank"]{
+    background-color: whitesmoke;
 }
 
 p:active{
@@ -94,9 +98,11 @@ p:active{
     width: 200px;
 }
 
+h1,h2{
+    font-size: 3vw;
+}
 h1 {
     color:lawngreen;
-    font-size: 3vw;
     position: relative;
 }
 h2{
@@ -104,4 +110,20 @@ h2{
 }
 span{
     font-size: 3.5em;
+}
+
+div + ul{
+    color:rgb(240, 132, 132);
+}
+
+h1 ~ ul {
+    background-color: white;
+    width: 100px;
+    margin: auto;
+}
+
+#name {
+    background-color: white;
+    margin:auto;
+    width: 150px;
 }
