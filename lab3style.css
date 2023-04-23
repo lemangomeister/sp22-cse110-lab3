@@ -1,0 +1,33 @@
+body {/*Background of entire page*/
+    background-color: rgb(0,102,204);
+}
+
+.box {/*Header Box*/
+    width: 175px;
+    height: 50px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid #79b913;
+  }
+  
+.outerbox{/*This does not show on the site; line 13 in the HTML file*/
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    padding: 5px 10px 5px 10px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 200px;
+    border-width: 10px;
+    border-style:dashed;
+    border-color: hsla(75, 100%, 50%, 1);
+}
+
+h1 {
+    color:lawngreen;
+}
+h2{
+    text-decoration-line: underline;
+}
