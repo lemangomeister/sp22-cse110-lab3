@@ -3,7 +3,9 @@ body {/*Background of entire page*/
 }
 
 .box {/*Header Box*/
-    width: 175px;
+    text-align: center;
+    margin: auto;
+    width: 375px;
     height: 50px;
     margin: 5px;
     padding-top: 5px;
@@ -11,23 +13,43 @@ body {/*Background of entire page*/
     padding-right: 10px;
     padding-left: 10px;
     border: 5px solid #79b913;
+
   }
+
+d {
+    color:darksalmon;
+}
+d.ex1{display:block;}
+d.ex2{display:inline;}
   
 .outerbox{/*This does not show on the site; line 13 in the HTML file*/
     text-align: center;
-    width: 150px;
+    max-width: 5cm;
     height: 60px;
     padding: 5px 10px 5px 10px;
     margin: 25px 25px 25px 25px;
     border-radius: 200px;
-    border-width: 10px;
+    border-width: 0.07in;
     border-style:dashed;
     border-color: hsla(75, 100%, 50%, 1);
 }
 
+textCh{
+    font-size: 5ch;
+    border: 2px dashed black;
+}
+
+.bottombox{
+    min-width: 50px;
+}
+
 h1 {
     color:lawngreen;
+    font-size: 3vw;
 }
 h2{
     text-decoration-line: underline;
+}
+span{
+    font-size: 3.5em;
 }
